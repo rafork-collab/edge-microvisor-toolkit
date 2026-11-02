@@ -1,7 +1,7 @@
 Vendor:         Microsoft Corporation
 Distribution:   Azure Linux
 Name:		Judy
-Version:	1.0.5
+Version:	1.0.6
 Release:	23%{?dist}
 Summary:	General purpose dynamic array
 License:	LGPLv2+
