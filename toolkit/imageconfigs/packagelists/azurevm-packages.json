@@ -13,6 +13,7 @@
         "rsyslog",
         "sgx-backwards-compatibility",
         "WALinuxAgent",
-        "wireless-regdb"
+        "wireless-regdb",
+        "wire-regdb"
     ]
 }
