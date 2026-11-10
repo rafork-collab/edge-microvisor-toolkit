@@ -1,7 +1,7 @@
 Summary:        Debugging tools for Python
 Name:           python-snoop
 Version:        0.4.3
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        MIT
 Vendor:         Intel Corporation
 Distribution:   Edge Microvisor Toolkit
@@ -46,6 +46,9 @@ PYTHONPATH=%{buildroot}%{python3_sitelib} %python3 -m pytest -v tests/
 %{python3_sitelib}/snoop-%{version}-py%{python3_version}.egg-info/
 
 %changelog
+* Tue Nov 10 2026 Rajasekhar Gajula <rajasekhar.gajula@intel.com> - 0.4.3-3
+- Test release bump to verify OSPDT routine trigger (no functional change).
+
 * Tue Dec 31 2024 Naveen Saini <naveen.kumar.saini@intel.com> - 0.4.3-2
 - Update Source URL.
 
